@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #102820;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1, h2 {
+    text-align: center;
+    color: #c5f0c0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #c5f0c0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #88d88a;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Application List */
+.applications-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.application-item {
+    background-color: #264d3e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.application-item h3 {
+    color: #88d88a;
+    margin-bottom: 10px;
+}
+
+.application-item p {
+    margin: 5px 0;
+}
+
+.application-item strong {
+    color: #c5f0c0;
+}
+
+.application-item a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.application-item a:hover {
+    color: #388e3c;
+}
+
+/* No Applications Text */
+.no-applications {
+    text-align: center;
+    font-style: italic;
+    color: #c5f0c0;
+}
+
+/* Back Link */
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #c5f0c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    color: #88d88a;
+}

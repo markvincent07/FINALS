@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #102820;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1b372c;
+    padding: 20px;
+    text-align: center;
+    color: #c5f0c0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #1b372c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #c5f0c0;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #4caf50;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #388e3c;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1b372c;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container h1 {
+    color: #88d88a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.job-post {
+    background-color: #264d3e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+}
+
+.job-post h2 {
+    color: #88d88a;
+    margin-bottom: 10px;
+}
+
+.job-post p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.apply-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apply-form textarea {
+    resize: none;
+    padding: 10px;
+    border: 1px solid #c5f0c0;
+    border-radius: 4px;
+    background-color: #102820;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    height: 200px; /* Adjust the height to make it larger */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.apply-form input[type="file"] {
+    color: #e0e0e0;
+}
+
+.apply-form button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.apply-form button:hover {
+    background-color: #388e3c;
+}

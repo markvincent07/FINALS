@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #102820; /* Dark green background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #1f4037; /* Darker green header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #c5f0c0; /* Light green text */
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #c5f0c0; /* Light green links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #88d88a; /* Lighter green on hover */
+}
+
+/* Container for the table */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #264d3e; /* Dark green background */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #c5f0c0;
+}
+
+table th {
+    background-color: #1f4037; /* Dark green for table headers */
+    color: #c5f0c0; /* Light green text */
+}
+
+table tr:nth-child(even) {
+    background-color: #2c6352; /* Slightly lighter dark green for alternating rows */
+}
+
+table tr:hover {
+    background-color: #3e6e5e; /* Hover effect for rows */
+}
+
+/* Resume Link Styling */
+.resume-link {
+    color: #4caf50; /* Green for resume links */
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    color: #388e3c; /* Darker green on hover */
+}
+
+/* Form Button Styling */
+button {
+    background-color: #4caf50; /* Green background for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Back Link Styling */
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #c5f0c0; /* Light green color */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-link a:hover {
+    color: #88d88a; /* Lighter green on hover */
+}
+
+/* No Resume Styling */
+.no-resume {
+    color: #c5f0c0;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
